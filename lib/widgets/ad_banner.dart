@@ -1,7 +1,7 @@
 // ArrowFlow — AdMob banner (graceful no-op when ads unavailable).
 
 import 'package:flutter/material.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart' hide AppState;
 import 'package:provider/provider.dart';
 
 import '../ads.dart';

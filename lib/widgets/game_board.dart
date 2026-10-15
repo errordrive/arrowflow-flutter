@@ -32,7 +32,7 @@ Arrow? nearestArrow(
   Offset pos,
   double cell,
   LevelData level,
-  Set<int> Function() isActive,
+  bool Function(int) isActive,
 ) {
   Arrow? best;
   double bestD = tapTolerance;
